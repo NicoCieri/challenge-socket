@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Iphone 12",
+    "description": "The new Iphone 12 256GB",
+    "price": 800,
+    "category": "phones",
+    "code": "iphone-12",
+    "stock": 5,
+    "thumbnails": ["1688538084264-59871120-iphone-12.jpeg"],
+    "id": 1,
+    "status": true
+  },
+  {
+    "title": "Samsung Galaxy S21",
+    "description": "The new Samsung Galaxy S21",
+    "price": 700,
+    "category": "phones",
+    "code": "galaxy-s21",
+    "stock": 10,
+    "thumbnails": ["1688538178269-685946670-samsung-s21.jpg"],
+    "id": 2,
+    "status": true
+  },
+  {
+    "title": "Google Pixel 5",
+    "description": "Google Pixel 5 128GB",
+    "price": 750,
+    "category": "phones",
+    "code": "pixel-5",
+    "stock": 20,
+    "thumbnails": ["1688538235674-293511323-google-pixel-5.jpeg"],
+    "id": 3,
+    "status": true
+  },
+  {
+    "title": "Xiaomi MI 11",
+    "description": "The new Xiaomi MI 11 256GB",
+    "price": 650,
+    "category": "phones",
+    "code": "mi-11",
+    "stock": 10,
+    "thumbnails": ["1688569387117-124437720-xiaomi-mi-11.jpeg"],
+    "id": 4,
+    "status": true
+  }
+]

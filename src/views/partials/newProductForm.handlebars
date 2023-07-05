@@ -1,0 +1,43 @@
+<form id="newProductForm" class="form">
+  <h2>New Product</h2>
+  <div class="fields"> 
+    <div class="formControl">
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title" placeholder="Title" required>
+    </div>
+    <div class="formControl">
+      <label for="description">Description</label>
+      <input type="text" id="description" name="description" placeholder="Description" required>
+    </div>
+    <div class="formControl">
+      <label for="price">Price</label>
+      <input type="number" id="price" name="price" placeholder="Price" min="0" required>
+    </div>
+    <div class="formControl">
+      <label for="thumbnail">Thumbnail</label>
+      <input type="file" id="thumbnail" name="thumbnail" placeholder="Thumbnail" required>
+    </div>
+    <div class="formControl">
+      <label for="category">Category</label>
+      <select name="category" id="category">
+        <option value="phones">Phones</option>
+        <option value="tablet">Tablets</option>
+        <option value="notebooks">Notebooks</option>
+      </select>
+    </div>
+    <div class="formControl">
+      <label for="code">Code</label>
+      <input type="text" id="code" name="code" placeholder="Code" required>
+    </div>
+    <div class="formControl">
+      <label for="stock">Stock</label>
+      <input type="number" id="stock" name="stock" placeholder="Stock" min="0" required>
+    </div>
+  </div>
+
+  <div id="errorMessage" class="errorMessage"></div>
+
+  <div class="actions">
+    <button type="submit">Create</button>
+  </div>
+</form>
